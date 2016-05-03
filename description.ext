@@ -1,0 +1,24 @@
+﻿briefingName="ACE+MCC TEMPLATE (v10)";
+overviewPicture = "medias\images\overview_v10.jpg";
+overviewText="Template de mission ACE et MCC, clique et joue !";
+
+onLoadName = "Conflit de Canard";
+author = "Auteurs communautaires connus";
+onloadMission = "Philippe, je sais où tu te caches, viens ici que je te bute enculé !";
+loadscreen = "medias\images\loadscreen_v10.jpg";
+
+respawn = "BASE";
+respawnDelay = 4;
+respawnOnStart = 0;
+respawnButton = 1;
+
+disabledAI = 1;
+joinUnassigned = 1;
+enableDebugConsole = 1;
+
+class Header
+    {
+       gameType = Coop;
+       minPlayers = 1;
+       maxPlayers = 64;
+    };
