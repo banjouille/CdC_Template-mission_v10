@@ -1,5 +1,6 @@
 null = [] execVM "scripts\Stamina.sqf";
 null = [] execVM "intro.sqf";
+// null = [] execVM "scripts\IntLight.sqf";
 
 enableSaving [false,false];
 
@@ -8,10 +9,9 @@ CHVD_maxView = 15000;
 CHVD_maxObj = 10000;
 "colorCorrections" ppEffectEnable true;
 
+// ["Preload"] call BIS_fnc_arsenal;
+
 // MCC_surviveMod = false;
 // MCC_allowlogistics = false;
 // MCC_saveGear = false;
 // CP_activated = false;
-
-// ["Preload"] call BIS_fnc_arsenal;
-// null = [] execVM "scripts\IntLight.sqf";
