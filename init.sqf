@@ -1,5 +1,5 @@
-null = [] execVM "scripts\Stamina.sqf";
 null = [] execVM "intro.sqf";
+null = [] execVM "scripts\Stamina.sqf";
 // null = [] execVM "scripts\IntLight.sqf";
 
 enableSaving [false,false];

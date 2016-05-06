@@ -8,13 +8,15 @@ onloadMission = "Philippe, je sais où tu te caches, viens ici que je te bute en
 loadscreen = "medias\images\loadscreen_v10.jpg";
 
 respawn = "BASE";
-respawnDelay = 4;
+respawnDelay = 5;
 respawnOnStart = 0;
 respawnButton = 1;
 
 disabledAI = 1;
 joinUnassigned = 1;
 enableDebugConsole = 1;
+
+disableChannels[]={4,5};
 
 class Header
     {
