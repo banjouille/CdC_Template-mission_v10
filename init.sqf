@@ -5,8 +5,8 @@ null = [] execVM "scripts\Stamina.sqf";
 enableSaving [false,false];
 
 CHVD_allowNoGrass = false;
-CHVD_maxView = 15000;
-CHVD_maxObj = 10000;
+CHVD_maxView = 10000;
+CHVD_maxObj = 8000;
 "colorCorrections" ppEffectEnable true;
 
 // ["Preload"] call BIS_fnc_arsenal;
